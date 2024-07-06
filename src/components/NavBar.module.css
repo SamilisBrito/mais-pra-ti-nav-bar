@@ -1,0 +1,28 @@
+nav {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.navUl{
+  display: flex;
+}
+
+.item {
+  padding: 10px;
+  color: rgb(6, 6, 97);
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.item:hover {
+  background-color: rgb(168, 189, 245);
+}
