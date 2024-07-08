@@ -20,3 +20,9 @@
   list-style: none;
   text-decoration: none;
 }
+
+body {
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+}

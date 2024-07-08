@@ -1,0 +1,11 @@
+
+.menu{
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem;
+  color: white;
+}
+
+.h2 {
+  font-size: 3.75rem;
+}
