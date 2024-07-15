@@ -1,0 +1,44 @@
+.componet {
+  padding: 10px;
+  border: 1px solid #48d9f3;
+  border-radius: 4px;
+}
+.header {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.header :is(h1, p) {
+  color: #48d9f3;
+}
+
+.navButton {
+  display: flex;
+  gap: 0.3125rem;
+}
+
+.button {
+  background-color: #282f33;
+  color: #e0eef1;
+  padding: 0.625rem;
+  border: none;
+  border-radius: 0.25rem 0.25rem 0 0;
+  cursor: pointer;
+}
+
+.button:hover,
+.active {
+  background-color: #48d9f3;
+  color: #273133;
+}
+
+.content {
+  background-color: #2d3942;
+  border-radius: 0 4px 4px 4px;
+  padding: 1rem;
+  max-width: 30rem;
+}
+.content li {
+  list-style: inside;
+}
