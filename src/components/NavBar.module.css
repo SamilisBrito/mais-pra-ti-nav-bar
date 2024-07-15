@@ -1,25 +1,27 @@
-nav {
-  background-color: antiquewhite;
+.nav {
+  background-color: #2d3942;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 .img {
   border-radius: 50%;
 }
 
-.navUl{
+.navUl {
   display: flex;
 }
 
 .item {
   padding: 0.625rem;
-  color: rgb(6, 6, 97);
+  color: #48d9f3;
   font-weight: 500;
   border-radius: 0.25rem;
 }
 
 .item:hover {
-  background-color: rgb(168, 189, 245);
+  background-color: #48d9f3;
+  color: #273133;
 }

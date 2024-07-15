@@ -1,7 +1,7 @@
 import  styles from "./NavBar.module.css"
 export function NavBar() {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <img className={styles.img}
         src="https://avatars.githubusercontent.com/u/63266170?v=4"
         width={70}
