@@ -11,7 +11,7 @@ export function Footer({ socialNetworks }) {
         ))}
       </menu>
 
-      <h2 className={styles.h2}>Samilis top</h2>
+      <h2 className={styles.h2}>Samilis</h2>
       <p>Alguns direitos reservados</p>
     </footer>
   );

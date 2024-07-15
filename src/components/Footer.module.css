@@ -1,5 +1,4 @@
-
-.menu{
+.menu {
   display: flex;
   justify-content: center;
   gap: 0.625rem;
@@ -8,4 +7,28 @@
 
 .h2 {
   font-size: 3.75rem;
+  text-align: center;
+  color: #48d9f3;
+}
+
+footer {
+  background-color: #2d3942;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+  color: #48d9f3;
+}
+
+.menu a {
+  padding: 0.625rem;
+  color: #48d9f3;
+  font-weight: 500;
+  border-radius: 0.25rem;
+}
+
+.menu a:hover {
+  background-color: #48d9f3;
+  color: #273133;
 }
