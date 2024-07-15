@@ -1,29 +1,25 @@
+import { Counter } from "./components/Counter";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
-import React, { useState } from "react";
+import { MenuReact } from "./components/MenuReact";
+import { TextArea } from "./components/TextArea";
+import styles from "./App.module.css";
+import { TaskList } from "./components/TaskList";
 
 function App() {
   const socialNetworks = ["instagram", "facebook", "LinkedIn"];
 
-  const [text, setText] = useState("");
-
-  function onTextChange(event) {
-    const text = event.target.value;
-      setText(text)
-  }
   return (
-    <>
+    <div id={styles.body}>
       <NavBar />
-      <textarea
-        placeholder='test'
-        onChange={onTextChange}
-        value={text}
-      ></textarea>
-      <p>
-        {text}
-      </p>
+      <main className={styles.main}>
+        <Counter />
+        <TextArea />
+        <TaskList />
+        <MenuReact />
+      </main>
       <Footer socialNetworks={socialNetworks} />
-    </>
+    </div>
   );
 }
 
