@@ -11,7 +11,7 @@ export function TaskList() {
     setText(text);
   }
 
-  function teste() {
+  function handleText() {
     setTexts([...texts, text]);
     setText("");
   }
@@ -27,7 +27,7 @@ export function TaskList() {
         onChange={onTextChange}
         value={text}
       ></input>
-      <button onClick={() => teste()}>Adicionar</button>
+      <button onClick={() => handleText()}>Adicionar</button>
       <ul className={styles.lists}>
         {texts.map((item, index) => (
           <Task key={item} texto={item} posicao={index} />
